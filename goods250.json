@@ -1,0 +1,242 @@
+{
+  "Персик 250г" : {
+    "img":"persik250g.jpg",
+    "description":"Табак Volcano Персик 250 грамм",
+    "cost":230,
+    "order": 2111
+
+  },
+
+  "Мохито 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Мохито 250 грамм",
+    "cost":230,
+    "order": 2112
+
+  },
+
+  "Энергетик 250г" : {
+    "img":"energetik250g.jpg",
+    "description":"Табак Volcano Энергетик 250 грамм",
+    "cost":230,
+    "order": 2113
+
+  },
+  "Арбуз 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Арбуз 250 грамм",
+    "cost":230,
+    "order": 2114
+
+  },
+  "Кола черешня малина 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Кола черешня малина 250 грамм",
+    "cost":230,
+    "order": 2115
+
+  },
+  "Абрикос 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Абрикос 250 грамм",
+    "cost":230,
+    "order": 2116
+
+  },
+  "Лимон мята айс 250г" : {
+    "img":"icelemonmint250g.jpg",
+    "description":"Табак Volcano Лимон мята айс 250 грамм",
+    "cost":230,
+    "order": 2117
+
+  },
+  "Виноград арбуз айс 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Виноград арбуз айс 250 грамм",
+    "cost":230,
+    "order": 2118
+
+  },
+  "Грейпфрут 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Грейпфрут 250 грамм",
+    "cost":230,
+    "order": 2119
+
+  },
+  "Ананас мята 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Ананас мята 250 грамм",
+    "cost":230,
+    "order": 2120
+
+  },
+  "Дыня мёд 250г" : {
+    "img":"medovayadynya250g.jpg",
+    "description":"Табак Volcano Дыня мёд 250 грамм",
+    "cost":230,
+    "order": 2121
+
+  },
+  "Виноград 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Виноград 250 грамм",
+    "cost":230,
+    "order": 2122
+
+  },
+  "Клубника банан айс 250г" : {
+    "img":"ledyanayaklubnikabanan250g.jpg",
+    "description":"Табак Volcano Клубника банан айс 250 грамм",
+    "cost":230,
+    "order": 2123
+
+  },
+  "Апельсин 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Апельсин 250 грамм",
+    "cost":230,
+    "order": 2124
+
+  },
+  "Двойное яблоко 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Двойное яблоко 250 грамм",
+    "cost":230,
+    "order": 2125
+
+  },
+  "Апельсин мята 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Апельсин мята 250 грамм",
+    "cost":230,
+    "order": 2126
+
+  },
+  "Дыня айс 250г" : {
+    "img":"ledyanayadynya250g.jpg",
+    "description":"Табак Volcano Дыня айс 250 грамм",
+    "cost":230,
+    "order": 2127
+
+  },
+  "Ананас 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Ананас 250 грамм",
+    "cost":230,
+    "order": 2128
+
+  },
+  "Лимонный пирог 250г" : {
+    "img":"lemonpie250g.jpg",
+    "description":"Табак Volcano Лимонный пирог 250 грамм",
+    "cost":230,
+    "order": 2129
+
+  },
+  "Черника айс 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Черника айс 250 грамм",
+    "cost":230,
+    "order": 2130
+
+  },
+  "Барбарис 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Барбарис 250 грамм",
+    "cost":230,
+    "order": 2131
+
+  },
+  "Ликёр крем шоколад 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Ликёр крем шоколад 250 грамм",
+    "cost":"230 грн",
+    "order": 2132
+
+  },
+  "Цитрусовый коктейль 250г" : {
+    "img":"koktejlcitrus250g.jpg",
+    "description":"Табак Volcano Цитрусовый коктейль 250 грамм",
+    "cost":230,
+    "order": 2133
+
+  },
+  "Арбуз дыня айс 250г" : {
+    "img":"arbuzdynyaice250g.jpg",
+    "description":"Табак Volcano Арбуз дыня айс 250 грамм",
+    "cost":230,
+    "order": 2134
+
+  },
+  "Баблл гамм айс 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Баблл гамм айс 250 грамм",
+    "cost":230,
+    "order": 2135
+
+  },
+  "Персик лайм 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Персик лайм 250 грамм",
+    "cost":230,
+    "order": 2136
+
+  },
+  "Малина абрик 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Малина абрик 250 грамм",
+    "cost":230,
+    "order": 2137
+
+  },
+  "Малина грейпфрут персик айс 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Малина грейпфрут персик айс 250 грамм",
+    "cost":230,
+    "order": 2138
+
+  },
+  "Бомбит 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Бомбит 250 грамм",
+    "cost":230,
+    "order": 2139
+
+  },
+  "Черешня 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Черешня 250 грамм",
+    "cost":230,
+    "order": 2140
+
+  },
+  "Лав 66 250г" : {
+    "img":"loveisjulia250g.jpg",
+    "description":"Табак Volcano Лав 66 250 грамм",
+    "cost":230,
+    "order": 2141
+
+  },
+  "Деспасито 250г" : {
+    "img":"despacito250g.jpg",
+    "description":"Табак Volcano Деспасито 250 грамм",
+    "cost":230,
+    "order": 2142
+
+  },
+  "Клубника 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Клубника 250 грамм",
+    "cost":230,
+    "order": 2143
+
+  },
+  "Мята 250г" : {
+    "img":"mojito250g.jpg",
+    "description":"Табак Volcano Мята 250 грамм",
+    "cost":230,
+    "order": 2144
+
+  }
+}
