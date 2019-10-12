@@ -3,13 +3,9 @@ var cart = {};
 
 function loadCart(){
     if(localStorage.getItem('cart')){
-        cart = JSON.parse(localStorage.getItem('cart'));
-
-
-           showCart();
-
+    cart = JSON.parse(localStorage.getItem('cart'));
+    showCart();
     }
-
 }
 
 function showCart(){
@@ -28,7 +24,6 @@ var sum = 0;
                 out +='<a>'+id+ '</a>';
               //  out += ` ${goods250[id].description}`;
                 out += `<a> ${cart[id]} шт.</a>`;
-
               //  out += `<button data-id="${id}" class="del-goods">X</button>`;
                 out +=  `<a> ${cart[id]*goods1000[id].cost} грн.</a>`;
                 out += `<button data-id="${id}" class="minus-goods">-</button>`;
@@ -80,14 +75,13 @@ function saveCart(){
     localStorage.setItem('cart', JSON.stringify(cart));
 }
 
+
+
 function isEmpty(object){
     for (var key in object)
     if (object.hasOwnProperty(key)) return true;
     return false;
 }
-
-
-
 
 function sendEmail(){
 
@@ -99,6 +93,8 @@ function sendEmail(){
     var Delivery3 = $('#Delivery3').val();
     if (Delivery3!='' && email!='' && Phone!='' ){
 if(isEmpty(cart)){
+
+
 
     $.post(
         "core/mail.php",
@@ -117,23 +113,27 @@ if(isEmpty(cart)){
                 alert('Заказ отправлен');
 
             }else{
-                alert('Повторите заказ');
+                alert('Ошибка, повторите заказ!!!');
+
             }
         }
 
     )
 
-
-}else{
-    alert('Корзина пуста !')
-}
     }else{
-        alert('Заполните поля')
+        alert('Корзина пуста !')
     }
+        }else{
+            alert('Заполните поля')
+        }
+
+
 }
+
 
 
 $(document).ready(function () {
     loadCart();
     $('.send-email').on('click', sendEmail);
 });
+
