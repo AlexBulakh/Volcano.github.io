@@ -108,13 +108,11 @@ if(isEmpty(cart)){
         },
         function (data){
             if (data==1) {
-                alert('Заказ отправлен');
+              //  alert('Заказ отправлен');
+                delCart();
             }else{
                 alert('Ошибка, повторите заказ!!!');
-                delCart();
-
-
-
+                return;
             }
         }
 
@@ -122,18 +120,15 @@ if(isEmpty(cart)){
 
     }else{
     alert('Корзина пуста !');
-    location.href = 'http://1590049.volcanoh.web.hosting-test.net/reg.html';
+
     return;
     }
         }else{
         alert('Заполните поля');
-        delCart();
-        location.href = 'http://1590049.volcanoh.web.hosting-test.net/reg.html';
+
         return;
         }
-    location.href = 'http://1590049.volcanoh.web.hosting-test.net/reg.html';
-//location.href = 'http://1590049.volcanoh.web.hosting-test.net/feed.html';
-delCart();
+    location.href = 'http://volcanohookah.zzz.com.ua/feed.html';
 
 }
 
