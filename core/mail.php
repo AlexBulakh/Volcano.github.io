@@ -36,3 +36,7 @@ $message .='Всего: '.$sum;
 
     if ($m) {echo 1;} else {echo 0;}
 
+
+
+
+

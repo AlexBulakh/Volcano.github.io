@@ -94,8 +94,6 @@ function sendEmail(){
     if (Delivery3!='' && email!='' && Phone!='' ){
 if(isEmpty(cart)){
 
-
-
     $.post(
         "core/mail.php",
         {
@@ -111,9 +109,11 @@ if(isEmpty(cart)){
         function (data){
             if (data==1) {
                 alert('Заказ отправлен');
-
             }else{
                 alert('Ошибка, повторите заказ!!!');
+                delCart();
+
+
 
             }
         }
@@ -121,15 +121,25 @@ if(isEmpty(cart)){
     )
 
     }else{
-        alert('Корзина пуста !')
+    alert('Корзина пуста !');
+    location.href = 'http://1590049.volcanoh.web.hosting-test.net/reg.html';
+    return;
     }
         }else{
-            alert('Заполните поля')
+        alert('Заполните поля');
+        delCart();
+        location.href = 'http://1590049.volcanoh.web.hosting-test.net/reg.html';
+        return;
         }
-
+    location.href = 'http://1590049.volcanoh.web.hosting-test.net/reg.html';
+//location.href = 'http://1590049.volcanoh.web.hosting-test.net/feed.html';
+delCart();
 
 }
 
+function delCart(){
+    localStorage.removeItem('cart');
+}
 
 
 $(document).ready(function () {
