@@ -12,14 +12,13 @@ function loadCart(){
 
 }
 
-
 function showCart(){
     if (!isEmpty(cart)){
         $('.main-cart').html('Корзина пуста !');
     }
     else {
       //  $.getJSON('goods250.json',  function (data){
-           $.getJSON('goods1000.json',  function (data){
+        $.getJSON('goods1000.json',  function (data){
         //    var goods250 = data;
                var goods1000 = data;
 var sum = 0;
@@ -41,10 +40,6 @@ var sum = 0;
                out +='<a>Всего: '+sum+' грн.</a>';
 
 
-
-
-
-
             $('.main-cart').html(out);
           $('.del-goods').on('click', delGoods);
             $('.plus-goods').on('click', plusGoods);
@@ -53,14 +48,8 @@ var sum = 0;
 
         });
 
-
-
     }
 }
-
-
-
-
 
 function delGoods(){
 var id = $(this).attr('data-id');
@@ -87,9 +76,6 @@ function minusGoods(){
     showCart();
 
 }
-
-
-
 function saveCart(){
     localStorage.setItem('cart', JSON.stringify(cart));
 }

@@ -6,7 +6,7 @@
     <meta name="description" content="шаблон"/>
     <link href="css/style_css.css" rel="stylesheet" type="text/css"/>
     <link href="image/icon.png" rel="shortcut icon" type="image/x-icon"/>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/cart.js"></script>
 
     <title>Табак Volcano</title>
@@ -32,27 +32,27 @@
     <div id="wrapper">
         <div id="articles">
             <div id="fik"><div class="main-cart"></div></div>
-            <form action="mail.php" method="post" >
+            <form action="" method="" >
                 <label for="Name" >Имя</label>
-                <input type="text" id="Name" name="Name" placeholder="Имя" />
+                <input type="text" id="Name" name="Name" placeholder="Имя" required>
                 <label for="email" >email</label>
-                <input type="email" id="email" name="email"  placeholder="volcanohookah@gmail.com" />
+                <input type="email" id="email" name="email"  placeholder="volcanohookah@gmail.com" required>
                 <label for="Phone" >Телефон</label>
-                <input type="text" id="Phone" name="Phone" placeholder="+38(099)9999999" />
+                <input type="text" id="Phone" name="Phone" placeholder="+38(099)9999999" required>
 
                 <label for="Delivery1" >Область</label>
-                <input type="text" id="Delivery1" class="Delivery1" name="Delivery1" placeholder="Киевская область" >
-                </input>
+                <input type="text" id="Delivery1" class="Delivery1" name="Delivery1" placeholder="Киевская область" required>
+
                 <label for="Delivery2" >Город</label>
-                <input type="text" id="Delivery2" class="Delivery2" name="Delivery2" placeholder="Киев" >
-                </input>
+                <input type="text" id="Delivery2" class="Delivery2" name="Delivery2" placeholder="Киев" required>
+
                 <label for="Delivery3" >Отделение Новой Почты</label>
-                <input type="text" id="Delivery3" class="Delivery3" name="Delivery3" placeholder="Отделение №1: ул. Пироговский путь, 135" >
-                </input>
+                <input type="text" id="Delivery3" class="Delivery3" name="Delivery3" placeholder="Отделение №1: ул. Пироговский путь, 135" required>
 
-                <button class="send-email">Отправить</button>
 
-              <!--  <input type="submit" value="Отправить" id="submit" name="submit" />   -->
+                   <button class="send-email">Отправить</button>
+
+                  <!--  <input type="submit" class="send-email" value="Отправить" >  -->
             </form>
 
         </div>
@@ -63,5 +63,6 @@
     <span class="left" >
 Volcano - это один из молодых Украинских брендов табачных смесей для кальяна.<p>Купить табак Volcano для кальяна на самых выгодных в Украине условиях вы можете на сайте.</p></span><span class="right"><p>+380974819693</p>volcanohookah@gmail.com</span>
 </footer>
+
 </body>
 </html>

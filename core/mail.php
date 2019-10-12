@@ -24,7 +24,7 @@ foreach ($cart as $id=>$count) {
 }
 $message .='Всего: '.$sum;
 
-  //print_r($message);
+//  print_r($message);
 
     $to = 'volcanohookah@gmail.com'.',';
     $to .=$_POST['email'];
