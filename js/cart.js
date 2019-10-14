@@ -25,8 +25,8 @@ var sum = 0;
               //  out += ` ${goods250[id].description}`;
                 out += `<a> ${cart[id]} шт.</a>`;
               //  out += `<button data-id="${id}" class="del-goods">X</button>`;
-                out +=  `<a> ${cart[id]*goods1000[id].cost} грн.</a>`;
-                out += `<button data-id="${id}" class="minus-goods">-</button>`;
+                out +=  `<a> ${cart[id]*goods1000[id].cost} грн.</a>    `;
+                out += `<button data-id="${id}" class="minus-goods">-</button> `;
                 out += `<button data-id="${id}" class="plus-goods">+</button>`;
             //   out +=  ` ${cart[id]*goods250[id].cost} грн.`;
                 sum=sum+cart[id]*goods1000[id].cost;
@@ -46,8 +46,8 @@ var sum = 0;
     }
 }
 
-function delGoods(){
-var id = $(this).attr('data-id');
+    function delGoods(){
+    var id = $(this).attr('data-id');
     delete cart[id];
     saveCart();
     showCart();
@@ -108,11 +108,13 @@ if(isEmpty(cart)){
         },
         function (data){
             if (data==1) {
+                location.href = '/feed.html';
               //  alert('Заказ отправлен');
-                delCart();
+            //    delCart();
+
             }else{
                 alert('Ошибка, повторите заказ!!!');
-                return;
+
             }
         }
 
@@ -121,19 +123,14 @@ if(isEmpty(cart)){
     }else{
     alert('Корзина пуста !');
 
-    return;
+
     }
         }else{
         alert('Заполните поля');
 
-        return;
+
         }
-    location.href = 'http://volcanohookah.zzz.com.ua/feed.html';
 
-}
-
-function delCart(){
-    localStorage.removeItem('cart');
 }
 
 
@@ -142,3 +139,6 @@ $(document).ready(function () {
     $('.send-email').on('click', sendEmail);
 });
 
+function delCart(){
+    localStorage.removeItem('cart');
+}

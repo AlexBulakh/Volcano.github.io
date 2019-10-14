@@ -84,8 +84,13 @@ function showMiniCart(){
     var out="";
     for (var id in cart){
         out += id +' - '+ cart[id]+' шт. '+'<br>';
+
     }
-$('.mini-cart').html(out);
+
+    $('.mini-cart').html(out);
+
+
+
 }
 function loadCart(){
     if(localStorage.getItem('cart')){

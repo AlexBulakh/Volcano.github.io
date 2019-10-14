@@ -15,18 +15,7 @@ body{
     font-size: 1em;
     font-family: "Comic Sans MS", sans-serif;
     line-height: 135%;
-
 }
- #smoke{
-     width: 100%;
-     height: 120%;
-     float: left;
-     background: url("../image/backmain.jpg") no-repeat;
-     background-size: 100% ;
-     margin-bottom: -10px;
-
- }
-
 
 a{
     color: rgba(40, 40, 40, 0.83);
@@ -45,12 +34,11 @@ img{
     height: auto;
     width: auto\9;
 }
-/* selection block */
+
 ::selection{background: rgba(30, 30, 30, 0.83); color: #b6ff82}
 
 header, footer{
-    width: 98%;
-    background-color: #fff;
+    width: 100%;
     min-height: 30px;
     float: left;
 }
@@ -84,10 +72,10 @@ input[type=text].field:focus{
     margin-bottom: 10px;
     margin-top: 10px;
 }
-
-#menuHrefs a {padding: 5px; border-radius: 5px; margin-right: 5px; color: #ff9135;  }
+/* old menu
+#menuHrefs a {padding: 5px; border-radius: 5px; margin-right: 5px; color: #ff9135;}
 #menuHrefs a:hover{background-color: #474747}
-
+*/
 #wrapper{
     float: left; width: 100%; margin-top: 20px ;
 }
@@ -96,7 +84,7 @@ input[type=text].field:focus{
 }
 #wrapper #articles article{
     float: left; width: 31.333%; border: 1px solid silver;
-    box-sizing: border-box; border-radius: 10px; background-color: rgba(83, 86, 88, 0.83);
+    box-sizing: border-box; border-radius: 10px; background-color: rgb(55, 72, 89);
     margin-right: 2%; height: 435px; margin-bottom: 15px;margin-top: 15px;
 }
 @media (max-width: 1099px) {
@@ -106,7 +94,6 @@ input[type=text].field:focus{
         margin-bottom: 10px;
 
     }
-
 }
 @media (min-width: 9000px) {
 
@@ -128,9 +115,9 @@ input[type=text].field:focus{
 }
 #wrapper #articles article h2{ width: 80%;
     margin-left: 20% ;font-size: 1em;
-    color: #ffc937;}
+    color: rgba(121, 157, 255, 1);}
 #wrapper #articles article p{width: 85%; margin-left: 38%; margin-bottom: 1%;margin-top: 3%;
-    text-indent: 1.6em; color: #ff9135;;
+    text-indent: 1.6em; color: rgba(121, 157, 255, 1);;
 }
 #wrapper #articles article a{
     padding: 5px; background-color: rgba(173, 174, 173, 0.83);margin-right: 42%;border-radius: 5px;
@@ -139,57 +126,47 @@ input[type=text].field:focus{
 #wrapper #articles article a:hover{ background-color: rgba(255, 160, 89, 0.83)}
 
 #wrapper #articles article button{ padding: 5px; background-color: rgba(43, 43, 43, 0.83);margin-right: 30%;border-radius: 5px;font-size: 1.2em;
-    float: right; margin-top: 5px; margin-bottom: 5px;color: rgba(255, 114, 12, 0.83);font-family: "Comic Sans MS", sans-serif;}
+    float: right; margin-top: 5px; margin-bottom: 5px;color: #8ca2ff;font-family: "Comic Sans MS", sans-serif;}
 #wrapper #articles article button:hover{ background-color: rgba(34, 48, 112, 0.83)}
 
 #main_block{
-
-
     margin-top: 1px;
      float: left;
     max-width: 100%;
     height: 100px;
     width: 100%;
 }
-
 #main_block_in{
     text-align: center; padding: 1%;
     margin-left: auto;margin-right: auto;
     height: auto;
     border: 1px solid silver; border-radius: 10px; width: 800px;
     max-width: 98%; box-sizing: border-box;
+    margin-bottom: 20px;
 }
-
 hr{display: block  ;border: 0;  height: 1px;border-top: solid #cccccc 1px;}
 .clear{clear: both}
 .left{float: left}
 .right{float: right}
-
 footer{
     border-top: 2px solid silver;
     margin-top: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     padding: 1%;
 }
 footer img{width: 10% ;float: left; margin-right: 5px}
-
 #page-wrap:after{content: "";
     display: block;  }
 footer, #page-wrap:after{height: 20px}
 #page-wrap{min-height: 93%;margin-bottom: -10px}
-
-/* about */
-
 #about{
     width: 60%; float: left; background-color: rgba(30, 30, 30, 0.83) ; border-radius: 5px;
     border: 1px solid silver; box-sizing: border-box; padding: 1%;
 }
-
 #column_right{
     width: 30%; float: left; margin-left: 5%;background-color: rgba(90, 91, 90, 0.83); border-radius: 5px;
     border: 1px solid silver; box-sizing: border-box; padding: 1%;
 }
-
 form{
     width: 65%;
     margin-left: 36%;
@@ -205,7 +182,6 @@ form input{
     width: 40%;
     background-color: rgba(204, 204, 204, 0.83)
 }
-
 form select{
     border-radius: 5px;
     border: 2px solid silver;
@@ -216,7 +192,6 @@ form select{
     width: 42%;
     background-color: rgba(204, 204, 204, 0.83)
 }
-
 
 form input:focus, form textarea:focus{
     border: 2px solid #ff9135;
@@ -250,44 +225,44 @@ form textarea{
     border-radius: 5px;
     margin-top: 20px;
     font-size: 1.5em;
-    color: #ffc937;
+    color: #8ca2ff;
     cursor: pointer;
 }
 
-
-
 #wrapper #articles form button:hover {
-    background-color: rgba(128, 128, 128, 0.83);
+    background-color: rgba(34, 48, 112, 0.83);
+
 }
 
+#wrapper #articles form button:active {
+    border-radius: 15%;
 
-
-
+}
 
 
 
 #wrapper #articles #fik {
+
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
-
-
-
-
 #wrapper #articles #fik button{
-    padding: 1px;
     background-color: rgba(78, 78, 78, 0.83);
     border-radius: 5px;
     font-size: 1em;
-    color: #ffc937;
+    color: #8ca2ff;
     cursor: pointer;
    width: 20px;
+    margin-bottom: 20px;
 
 }
 
-
+#tit{
+    padding: 3%;
+    color: rgba(0, 0, 0, 0.83);
+}
 
 
 
