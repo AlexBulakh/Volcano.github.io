@@ -85,6 +85,9 @@ function isEmpty(object){
 
 function sendEmail(){
 
+    saveCart();
+    showCart();
+
     var Name = $('#Name').val();
     var email = $('#email').val();
     var Phone = $('#Phone').val();

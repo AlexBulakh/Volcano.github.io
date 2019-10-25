@@ -1,12 +1,11 @@
 
-var cart ={}
+var cart ={};
 
 
 function init(){
 $.getJSON("goods500.json", goodsOut500);
 }
 function goodsOut500(data){
-    console.log(data);
     var out='';
         for (var key in data){
             out +='<article>';
@@ -28,7 +27,6 @@ function init1(){
 $.getJSON("goods250.json", goodsOut250);
 }
 function goodsOut250(data){
-    console.log(data);
     var out='';
         for (var key in data){
             out +='<article>';
@@ -49,7 +47,6 @@ function init2(){
     $.getJSON("goods50.json", goodsOut50);
 }
 function goodsOut50(data){
-    console.log(data);
     var out='';
         for (var key in data){
             out +='<article>';

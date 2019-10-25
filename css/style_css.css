@@ -72,10 +72,7 @@ input[type=text].field:focus{
     margin-bottom: 10px;
     margin-top: 10px;
 }
-/* old menu
-#menuHrefs a {padding: 5px; border-radius: 5px; margin-right: 5px; color: #ff9135;}
-#menuHrefs a:hover{background-color: #474747}
-*/
+
 #wrapper{
     float: left; width: 100%; margin-top: 20px ;
 }
@@ -84,7 +81,7 @@ input[type=text].field:focus{
 }
 #wrapper #articles article{
     float: left; width: 31.333%; border: 1px solid silver;
-    box-sizing: border-box; border-radius: 10px; background-color: rgb(55, 72, 89);
+    box-sizing: border-box; border-radius: 10px;
     margin-right: 2%; height: 435px; margin-bottom: 15px;margin-top: 15px;
 }
 @media (max-width: 1099px) {
@@ -111,32 +108,33 @@ input[type=text].field:focus{
     }}
 #wrapper #articles article img{
     width: 65%; height: 250px;border-radius: 5px 5px 5px 5px;
-    border-bottom: 1px solid silver; margin-bottom: 10px;margin-left: 18%;margin-top: 20px;
+     margin-bottom: 10px;margin-left: 18%;margin-top: 20px;
 }
 #wrapper #articles article h2{ width: 80%;
     margin-left: 20% ;font-size: 1em;
-    color: rgba(121, 157, 255, 1);}
+    color: rgb(0, 2, 13);}
 #wrapper #articles article p{width: 85%; margin-left: 38%; margin-bottom: 1%;margin-top: 3%;
-    text-indent: 1.6em; color: rgba(121, 157, 255, 1);;
+    text-indent: 1.6em; color: rgb(0, 5, 47);;
 }
-#wrapper #articles article a{
-    padding: 5px; background-color: rgba(173, 174, 173, 0.83);margin-right: 42%;border-radius: 5px;
-    float: right; margin-top: 1px; margin-bottom: 20px;
-}
-#wrapper #articles article a:hover{ background-color: rgba(255, 160, 89, 0.83)}
+
+
+
 
 #wrapper #articles article button{ padding: 5px; background-color: rgba(43, 43, 43, 0.83);margin-right: 30%;border-radius: 5px;font-size: 1.2em;
     float: right; margin-top: 5px; margin-bottom: 5px;color: #8ca2ff;font-family: "Comic Sans MS", sans-serif;}
 #wrapper #articles article button:hover{ background-color: rgba(34, 48, 112, 0.83)}
 
-#main_block{
+#wrapper #articles #main_block{
     margin-top: 1px;
      float: left;
     max-width: 100%;
     height: 100px;
     width: 100%;
+    margin-bottom: 400px;
+
+
 }
-#main_block_in{
+#wrapper #articles #main_block #main_block_in{
     text-align: center; padding: 1%;
     margin-left: auto;margin-right: auto;
     height: auto;
@@ -153,6 +151,7 @@ footer{
     margin-top: 5px;
     margin-bottom: 10px;
     padding: 1%;
+    float: left;
 }
 footer img{width: 10% ;float: left; margin-right: 5px}
 #page-wrap:after{content: "";
@@ -179,7 +178,7 @@ form input{
     float: left;
     clear: both;
     margin-bottom: 10px;
-    width: 40%;
+    width: 45%;
     background-color: rgba(204, 204, 204, 0.83)
 }
 form select{
@@ -239,15 +238,12 @@ form textarea{
 
 }
 
-
-
 #wrapper #articles #fik {
 
     display: flex;
     justify-content: center;
     align-content: center;
 }
-
 #wrapper #articles #fik button{
     background-color: rgba(78, 78, 78, 0.83);
     border-radius: 5px;
@@ -264,10 +260,21 @@ form textarea{
     color: rgba(0, 0, 0, 0.83);
 }
 
+#wrapper #articles article a img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 80%; height: auto;
 
 
-
-
+}
+#wrapper #articles article a h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: rgb(0, 5, 47);
+}
 
 
 
