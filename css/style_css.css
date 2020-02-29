@@ -120,9 +120,10 @@ input[type=text].field:focus{
 
 
 
-#wrapper #articles article button{ padding: 5px; background-color: rgba(43, 43, 43, 0.83);margin-right: 30%;border-radius: 5px;font-size: 1.2em;
-    float: right; margin-top: 5px; margin-bottom: 5px;color: #8ca2ff;font-family: "Comic Sans MS", sans-serif;}
-#wrapper #articles article button:hover{ background-color: rgba(34, 48, 112, 0.83)}
+#wrapper #articles article button{ padding: 5px; background-color: rgb(141, 171, 253);margin-right: 30%;border-radius: 5px;font-size: 1.2em;
+    float: right; margin-top: 5px; margin-bottom: 5px;color: #393e4c;font-family: "Comic Sans MS", sans-serif;}
+#wrapper #articles article button:hover{ background-color: rgba(83, 117, 255, 0.73)
+}
 
 #wrapper #articles #main_block{
     margin-top: 1px;
@@ -220,16 +221,16 @@ form textarea{
     float: right;
     margin-right: 72%;
     padding: 10px;
-    background-color: rgba(78, 78, 78, 0.83);
+    background-color: rgb(141, 171, 253);
     border-radius: 5px;
     margin-top: 20px;
     font-size: 1.5em;
-    color: #8ca2ff;
+    color: #393e4c;
     cursor: pointer;
 }
 
 #wrapper #articles form button:hover {
-    background-color: rgba(34, 48, 112, 0.83);
+    background-color: rgba(83, 117, 255, 0.73);
 
 }
 
@@ -245,14 +246,18 @@ form textarea{
     align-content: center;
 }
 #wrapper #articles #fik button{
-    background-color: rgba(78, 78, 78, 0.83);
+    background-color: rgb(141, 171, 253);
     border-radius: 5px;
     font-size: 1em;
-    color: #8ca2ff;
+    color: #393e4c;
     cursor: pointer;
    width: 20px;
     margin-bottom: 20px;
 
+}
+
+#wrapper #articles #fik button:hover{
+    background-color: rgba(83, 117, 255, 0.73);
 }
 
 #tit{
@@ -264,7 +269,7 @@ form textarea{
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 80%; height: auto;
+    width: 60%; height: 300px;
 
 
 }

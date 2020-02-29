@@ -23,6 +23,75 @@ $(document).ready(function(){
 });
 
 
+
+
+function init3(){
+    $.getJSON("goods750.json", goodsOut750);
+}
+function goodsOut750(data){
+    var out='';
+    for (var key in data){
+        out +='<article>';
+        out +='<img src="image/tastes/'+data[key].img+'" alt="" title="" />';
+        out +='<h2>'+data[key].description+'</h2>';
+        out +='<p>'+data[key].cost+' грн</p>';
+        out +=`<button class="add-to-cart" data-id="${key}">Добавить в корзину</button>`;
+        out +='</article>';
+    }
+    $('.goods-out750').html(out);
+
+}
+$(document).ready(function(){
+    init3()
+});
+
+function init4(){
+    $.getJSON("goods11.json", goodsOut11);
+}
+function goodsOut11(data){
+    var out='';
+    for (var key in data){
+        out +='<article>';
+        out +='<img src="image/tastes/'+data[key].img+'" alt="" title="" />';
+        out +='<h2>'+data[key].description+'</h2>';
+        out +='<p>'+data[key].cost+' грн</p>';
+        out +=`<button class="add-to-cart" data-id="${key}">Добавить в корзину</button>`;
+        out +='</article>';
+    }
+    $('.goods-out11').html(out);
+
+}
+$(document).ready(function(){
+    init4()
+});
+
+function init5(){
+    $.getJSON("goods22.json", goodsOut22);
+}
+function goodsOut22(data){
+    var out='';
+    for (var key in data){
+        out +='<article>';
+        out +='<img src="image/tastes/'+data[key].img+'" alt="" title="" />';
+        out +='<h2>'+data[key].description+'</h2>';
+        out +='<p>'+data[key].cost+' грн</p>';
+        out +=`<button class="add-to-cart" data-id="${key}">Добавить в корзину</button>`;
+        out +='</article>';
+    }
+    $('.goods-out22').html(out);
+
+}
+$(document).ready(function(){
+    init5()
+});
+
+
+
+
+
+
+
+
 function init1(){
 $.getJSON("goods250.json", goodsOut250);
 }
@@ -100,9 +169,6 @@ $(document).ready(function(){
     init2();
     loadCart();
 });
-
-
-
 
 
 

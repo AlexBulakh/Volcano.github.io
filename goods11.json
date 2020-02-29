@@ -1,0 +1,37 @@
+{
+  "Prosecco Italy" : {
+    "img":"611.jpg",
+    "description":"Prosecco Italy 0,75л",
+    "cost":295 ,
+    "order": 6111
+
+  },
+  "Игристые Lambrusco" : {
+    "img":"612.jpg",
+    "description":"Игристые Lambrusco 0,75л",
+    "cost":125 ,
+    "order": 6112
+
+  },
+  "Вино Кьянти DOCG Тоскана" : {
+    "img":"613.jpg",
+    "description":"Вино Кьянти DOCG Тоскана 0,75л",
+    "cost":180 ,
+    "order": 6113
+
+  },
+  "Пино гриджо (Pinot grigio)" : {
+    "img":"614.jpg",
+    "description":"Пино гриджо (Pinot grigio) 0,75л",
+    "cost":180 ,
+    "order": 6114
+
+  },
+  "Вино игристое Asti" : {
+    "img":"615.jpg",
+    "description":"Вино игристое Asti белое сладкое 0,75л",
+    "cost":295 ,
+    "order": 6115
+
+  }
+}

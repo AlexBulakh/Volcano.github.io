@@ -71,6 +71,17 @@ li {
     -ms-transition: all 0.35s;
     transition: all 0.35s;
 }
+
+@media (max-width: 1099px) {
+
+    #marker {
+        background: rgba(140, 170, 252, 0.83);
+    }
+}
+
+
+
+
 #main li:nth-child(1):hover ul div {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
@@ -78,10 +89,10 @@ li {
     transform: translate(0, 0);
 }
 #main li:nth-child(1):hover ~ #marker {
-    -webkit-transform: translate(10px, 0);
-    -moz-transform: translate(10px, 0);
-    -ms-transform: translate(10px, 0);
-    transform: translate(10px, 0);
+    -webkit-transform: translate(20px, 0);
+    -moz-transform: translate(20px, 0);
+    -ms-transform: translate(20px, 0);
+    transform: translate(20px, 0);
 }
 #main li:nth-child(2):hover ul div {
     -webkit-transform: translate(0, 0);
@@ -90,10 +101,10 @@ li {
     transform: translate(0, 0);
 }
 #main li:nth-child(2):hover ~ #marker {
-    -webkit-transform: translate(142px, 0);
-    -moz-transform: translate(142px, 0);
-    -ms-transform: translate(142px, 0);
-    transform: translate(142px, 0);
+    -webkit-transform: translate(216px, 0);
+    -moz-transform: translate(216px, 0);
+    -ms-transform: translate(216px, 0);
+    transform: translate(216px, 0);
 }
 #main li:nth-child(3):hover ul div {
     -webkit-transform: translate(0, 0);
@@ -102,10 +113,10 @@ li {
     transform: translate(0, 0);
 }
 #main li:nth-child(3):hover ~ #marker {
-    -webkit-transform: translate(310px, 0);
-    -moz-transform: translate(310px, 0);
-    -ms-transform: translate(310px, 0);
-    transform: translate(310px, 0);
+    -webkit-transform: translate(450px, 0);
+    -moz-transform: translate(450px, 0);
+    -ms-transform: translate(450px, 0);
+    transform: translate(450px, 0);
 }
 #main li:nth-child(4):hover ul div {
     -webkit-transform: translate(0, 0);
@@ -114,8 +125,20 @@ li {
     transform: translate(0, 0);
 }
 #main li:nth-child(4):hover ~ #marker {
-    -webkit-transform: translate(472px, 0);
-    -moz-transform: translate(472px, 0);
-    -ms-transform: translate(472px, 0);
-    transform: translate(472px, 0);
+    -webkit-transform: translate(680px, 0);
+    -moz-transform: translate(680px, 0);
+    -ms-transform: translate(680px, 0);
+    transform: translate(680px, 0);
+}
+#main li:nth-child(5):hover ul div {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+#main li:nth-child(5):hover ~ #marker {
+    -webkit-transform: translate(840px, 0);
+    -moz-transform: translate(840px, 0);
+    -ms-transform: translate(840px, 0);
+    transform: translate(840px, 0);
 }

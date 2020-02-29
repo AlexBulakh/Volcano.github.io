@@ -13,22 +13,18 @@ function showCart(){
         $('.main-cart').html('Корзина пуста !');
     }
     else {
-      //  $.getJSON('goods250.json',  function (data){
         $.getJSON('goods1000.json',  function (data){
-        //    var goods250 = data;
+
                var goods1000 = data;
 var sum = 0;
             var out = '';
             for (var id in cart) {
 
                 out +='<a>'+id+ '</a>';
-              //  out += ` ${goods250[id].description}`;
                 out += `<a> ${cart[id]} шт.</a>`;
-              //  out += `<button data-id="${id}" class="del-goods">X</button>`;
                 out +=  `<a> ${cart[id]*goods1000[id].cost} грн.</a>    `;
                 out += `<button data-id="${id}" class="minus-goods">-</button> `;
                 out += `<button data-id="${id}" class="plus-goods">+</button>`;
-            //   out +=  ` ${cart[id]*goods250[id].cost} грн.`;
                 sum=sum+cart[id]*goods1000[id].cost;
                 out += '<br>';
             }
@@ -112,8 +108,7 @@ if(isEmpty(cart)){
         function (data){
             if (data==1) {
                 location.href = '/feed.html';
-              //  alert('Заказ отправлен');
-            //    delCart();
+
 
             }else{
                 alert('Ошибка, повторите заказ!!!');

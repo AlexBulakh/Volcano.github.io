@@ -4,4 +4,4 @@ Disallow:
 User-agent: Googlebot
 Disallow:
 Host: volcanohookah.zzz.com.ua
-Sitemap: http://volcanohookah.zzz.com.ua/sitemap.xml
+Sitemap: http://gattolampone.zzz.com.ua/sitemap.xml

@@ -26,10 +26,10 @@ $message .='Всего: '.$sum;
 
 //  print_r($message);
 
-    $to = 'shop@volcanohookah.zzz.com.ua'.',';
+    $to = 'shop@gattolampone.zzz.com.ua'.',';
     $to .=$_POST['email'];
     $spectext = '<!DOCTYPE HTML><html><head><title>Заказ</title></head><body>';
-    $headers = 'From: shop@volcanohookah.zzz.com.ua' . "\r\n" .
+    $headers = 'From: shop@gattolampone.zzz.com.ua' . "\r\n" .
     $headers  = 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 

@@ -3,23 +3,25 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="Доставка и оплата" />
-    <meta name="description" content="Доставка и оплата новой почтой (наложеный платеж. Для оптовых покупателей скидки."/>
+    <meta name="keywords" content="Корзина" />
+    <meta name="description" content="Корзина покупок подарочных наборов, игристых вин, аксессуаров на нашем сайте"/>
     <link href="css/style_css.css" rel="stylesheet" type="text/css"/>
     <link href="css/style_css_menu.css" rel="stylesheet" type="text/css"/>
     <link href="css/neon.css" rel="stylesheet" type="text/css"/>
     <link href="image/icon.png" rel="shortcut icon" type="image/x-icon"/>
     <script src="js/jquery-3.2.1.min.js"></script>
-    <title>Доставка и оплата</title>
+    <script src="js/cart.js"></script>
+    <title>Корзина</title>
     <base href="http://gattolampone.zzz.com.ua/" />
     <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
     <META HTTP-EQUIV="Expires" CONTENT="-1">
 </head>
+<body>
 
 <div id="page-wrap">
     <header>
         <center>
-            <div class="sign"><span class="sign__word">Доставка и оплата</span></div>
+            <div class="sign"><span class="sign__word">Корзина</span></div>
         </center>
     </header>
     <div class="clear"><br /></div>
@@ -49,21 +51,36 @@
     </center>
     <div id="wrapper">
         <div id="articles">
-<div id="main_block">
-      <div id="main_block_in"><p>В нашем интернет-магазине оплата при получении (наложенный платеж).</p><br>
-    <p>Доставка осуществляется с помощью почтовой службы “Новая почта”. Стоимость определяется в индивидуальном порядке, в зависимости от местоположения доставки, массы посылки.</p>
-    <br><p><strong>Для оптовых покупателей:</strong></p><p>При заказе от   2000грн - скидка 2%</p><p>При заказе от   5000грн - скидка 4%</p><p>При заказе от 10000грн - скидка 6%</p><br><p>По оптовым закупкам обращайтесь по телефону: +38 (097) 481-96-93</p>
-        <br><p>gattolampone@gmail.com</p>
-    </div>
-</div>
+            <div id="fik"><div class="main-cart"></div></div>
+            <form action="" method="" >
+                <label for="Name" >Имя</label>
+                <input type="text" id="Name" name="Name" placeholder="Имя" required>
+                <label for="email" >email</label>
+                <input type="email" id="email" name="email"  placeholder="gattolampone@gmail.com" required>
+                <label for="Phone" >Телефон</label>
+                <input type="text" id="Phone" name="Phone" placeholder="+38(099)9999999" required>
+                <label for="Delivery1" >Область</label>
+                <input type="text" id="Delivery1" class="Delivery1" name="Delivery1" placeholder="Киевская область" required>
+                <label for="Delivery2" >Город</label>
+                <input type="text" id="Delivery2" class="Delivery2" name="Delivery2" placeholder="Киев" required>
+                <label for="Delivery3" >Отделение Новой Почты</label>
+                <input type="text" id="Delivery3" class="Delivery3" name="Delivery3" placeholder="Отделение №1: ул. Пироговский путь, 135" required>
+                   <button class="send-email" >Отправить</button>
+            </form>
+
+
+
+
         </div>
     </div>
 </div>
 </div>
 
+
 <footer>
     <span class="left" >
 </span><span class="right"><p>+380974819693</p>gattolampone@gmail.com</span>
 </footer>
+
 </body>
 </html>
